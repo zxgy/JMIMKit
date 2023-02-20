@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JMIMKit_Example' do
+  pod 'JMIMKit', :path => '../'
+
+  target 'JMIMKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
