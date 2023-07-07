@@ -15,5 +15,7 @@ open class JMTest {
     }
     open func run() {
         print("正在测试JMTest.run()函数")
+        
+        print("正在测试JMTest.run()函数")
     }
 }
